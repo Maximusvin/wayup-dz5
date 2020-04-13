@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #626262;
+  line-height: 1.7em;
+  background-color: #fff;
+}
