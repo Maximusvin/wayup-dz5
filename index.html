@@ -1,9 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="description" content="Профессиональная верстка сайтов любой сложности. Самые оптимальные цены во всем СНГ" />
+    <meta name="keywords" content="верстка, создание сайтов, верстка сайтов, лендинг" />
+    <title>Myname - профессиональная верстка</title>
+    <!-- Favicon -->
+    <link rel="icon" href="./img/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <!-- OG Tags -->
+    <meta property="og:title" content="Профессиональная верстка сайтов" />
+    <meta property="og:description" content="Делаем сайты и лендинги за считанные дни" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://.../img/650x527-lm31-smm.5f3.png" />
+    <meta property="og:site_name" content="Myname" />
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <nav class="main-nav">
+          <a href="/">
+            <img src="./img/logo.png" width="121" height="29" class="logo" alt="Myname" />
+          </a>
+        </nav>
+        <div class="offer">
+          <h1 class="offer__title">Я занимаюсь версткой и делаю это профессионально</h1>
+          <button class="offer__btn button" type="button">
+            Связаться со мной
+          </button>
+          <a href="#about" class="offer__link">
+            <img src="./img/arrow.png" alt="Перейти к следующему экрану" />
+          </a>
+        </div>
+      </div>
+    </header>
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="about__title">Обо мне</h2>
+        <div class="about__box d-flex space-between">
+          <div class="about__description">
+            <h3 class="about__subtitle">О Миссии</h3>
+            <p class="about__main-content">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p class="about__main-content">
+              Duis aute irure dolor in <a href="#">reprehenderit</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut
+              perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <div class="about__description merit">
+            <h3 class="about__subtitle merit-title">О Заслугах</h3>
+            <ul class="list-icon">
+              <li class="list-item d-flex">
+                <div class="bg-img bug"></div>
+                <div class="content">
+                  <h4 class="list-item-title">Волшебный жук</h4>
+                  <p class="list-item-subtitle">Позволяет быть в тонусе</p>
+                </div>
+              </li>
+              <li class="list-item d-flex">
+                <div class="bg-img bell"></div>
+                <div class="content">
+                  <h4 class="list-item-title">Особый колокольчик</h4>
+                  <p class="list-item-subtitle">Позволяет не проспать</p>
+                </div>
+              </li>
+              <li class="list-item d-flex">
+                <div class="bg-img storm"></div>
+                <div class="content">
+                  <h4 class="list-item-title">Человек-молния</h4>
+                  <p class="list-item-subtitle">Я сдаю все проекты раньше</p>
+                </div>
+              </li>
+              <li class="list-item d-flex">
+                <div class="bg-img camera"></div>
+                <div class="content">
+                  <h4 class="list-item-title">Фотографирую</h4>
+                  <p class="list-item-subtitle">Просто мне это нравится</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="advantages" id="advantages">
+      <div class="container">
+        <h2 class="advantages__title">Почему ко мне обращаются</h2>
+        <ul class="advantages__list d-flex">
+          <li class="advantages__list-item">
+            <div class="advantages__icon d-flex">
+              <span>1</span>
+            </div>
+            <p class="advantages__description">Умный и разумный</p>
+          </li>
+          <li class="advantages__list-item">
+            <div class="advantages__icon two d-flex">
+              <span>2</span>
+            </div>
+            <p class="advantages__description">Красивый и приятный</p>
+          </li>
+          <li class="advantages__list-item">
+            <div class="advantages__icon d-flex">
+              <span>3</span>
+            </div>
+            <p class="advantages__description">Мой код любят девушки</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="think" id="think">
+      <div class="container">
+        <div class="think__wrap">
+          <p class="think__title">Мне кажется,</p>
+          <p class="think__description">
+            Вам просто необходимо связаться со мной, иначе вы <br />
+            рискуете упустить знакомство с лучшим человеком на земле
+          </p>
+        </div>
+        <button class="button think__btn" type="button">Связаться со мной</button>
+      </div>
+    </section>
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="footer__wrap d-flex">
+          <div class="footer__text rights">Все права защищены</div>
+          <div class="footer__text">Мое имя и фамилия</div>
+          <div class="footer__text politics">
+            <a href="#">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
