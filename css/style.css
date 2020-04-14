@@ -1,11 +1,14 @@
-html {
+div,
+p,
+form,
+input,
+textarea,
+a,
+span,
+button,
+ul,
+li {
   box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
 }
 
 body {
@@ -267,20 +270,15 @@ h2 {
   margin-bottom: 11px;
   align-items: center;
   justify-content: center;
-}
-
-.advantages__icon span {
-  display: block;
   font-size: 30px;
   color: #ffa200;
-  margin-bottom: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
 }
 
-.two {
+.advantages__icon:hover,
+.advantages__icon:focus {
   background-color: #ffa200;
-}
-
-.two span {
   color: #fff;
 }
 
@@ -342,11 +340,12 @@ h2 {
 }
 .politics {
   margin-left: auto;
+  box-sizing: border-box;
 }
 
 .politics:hover {
   opacity: 1;
-  border-bottom: 1px dashed #fff;
+  border-bottom: 1px dotted #fff;
 }
 
 .politics a {
