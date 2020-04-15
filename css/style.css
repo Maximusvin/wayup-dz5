@@ -96,9 +96,11 @@ h2 {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b7dfc', endColorstr='#1048d3', GradientType=1 );
 }
 
-.logo {
+.main-nav__logo {
   display: block;
   margin: 0 auto;
+  width: 121px;
+  height: 29px;
   margin-bottom: 168px;
 }
 
@@ -144,16 +146,9 @@ h2 {
   margin-bottom: 78px;
 }
 
-.about__description {
+.about__description:not(:last-child) {
   width: 460px;
-}
-
-.merit {
-  width: 402px;
-}
-
-.merit-title {
-  margin-bottom: 40px;
+  margin-right: 78px;
 }
 
 .about__subtitle {
@@ -187,18 +182,18 @@ h2 {
   margin-bottom: 0;
 }
 
-.list-icon {
+.about__list-icon {
   width: 285px;
-  padding: 0;
+  padding: 9px 0 0 0;
   margin: 0;
   list-style: none;
 }
 
-.list-item {
+.about__item:not(:last-child) {
   margin-bottom: 26px;
 }
 
-.bg-img {
+.about__bg-img {
   width: 52px;
   height: 52px;
   border-radius: 10px;
@@ -221,20 +216,20 @@ h2 {
   background: #2a5fe5 url(../img/camera.png) center no-repeat;
 }
 
-.list-item-title {
+.about__item-title {
   font-size: 16px;
   text-transform: unset;
   color: #2d63eb;
 }
 
-.list-item-subtitle {
+.about__item-subtitle {
   opacity: 0.48;
   font-size: 15px;
   line-height: 2.2em;
 }
 
 .advantages {
-  padding: 90px 0 116px 0;
+  padding: 115px 0 116px 0;
 }
 
 .advantages__title {
@@ -294,6 +289,7 @@ h2 {
 
 .think__wrap {
   margin: 0 auto;
+  width: 442px;
   text-align: center;
 }
 
@@ -327,8 +323,14 @@ h2 {
 .footer {
   background-color: #06319e;
   color: #fff;
-  padding: 48px 0 45px 0;
+  padding: 48px 0;
   font-size: 13px;
+}
+
+.footer__wrap a {
+  display: block;
+  color: #fff;
+  box-sizing: border-box;
 }
 
 .footer__text {
@@ -340,14 +342,11 @@ h2 {
 }
 .politics {
   margin-left: auto;
-  box-sizing: border-box;
+  border-bottom: 1px dotted transparent;
 }
 
 .politics:hover {
   opacity: 1;
-  border-bottom: 1px dotted #fff;
-}
-
-.politics a {
   color: #fff;
+  border-bottom: 1px dotted #fff;
 }
